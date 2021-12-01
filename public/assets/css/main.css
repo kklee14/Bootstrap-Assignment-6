@@ -1,0 +1,105 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Sidebar */
+aside {
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  background: #363740;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #363740;
+}
+
+.nav-link.active {
+  width: 100%;
+}
+
+.bi {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: currentColor;
+}
+
+@media (max-width: 768px) {
+  aside {
+    top: 5rem;
+  }
+}
+
+/* Main */
+.container-fluid {
+  background-color: rgb(240, 239, 239);
+  width: 100%;
+}
+
+/* Top bar */
+.vl-right {
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+}
+
+.space-right {
+  padding-right: 15px;
+}
+
+/* Section - ticket */
+.card-active {
+  border: 2px solid blue;
+  color: blue;
+}
+
+@media (max-width: 1200px) {
+  .ticket {
+    padding-bottom: 20px;
+  }
+}
+
+/* Section - Chart */
+.chart-col {
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.chart-title {
+  padding: 25px 25px 0 25px;
+}
+
+.chart-time {
+  padding: 0px 25px;
+  color: rgb(182, 182, 182);
+  font-size: 0.9rem;
+}
+
+.chart-index {
+  padding-top: 55px;
+  font-size: 0.9rem;
+  color: rgb(182, 182, 182);
+}
+
+.stats {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.stats h5 {
+  color: rgb(182, 182, 182);
+  font-size: 0.9rem;
+}
+
+.stats h4 {
+  color: rgb(63, 63, 63);
+  font-size: 1.2rem;
+}
+
+/* Bottom */
+.bottom-box {
+  background-color: white;
+}
